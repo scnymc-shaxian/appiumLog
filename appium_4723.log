@@ -1,0 +1,156 @@
+2021-01-06 07:25:10:871 [Appium] Welcome to Appium v1.20.0
+2021-01-06 07:25:10:872 [Appium] Non-default server args:
+2021-01-06 07:25:10:873 [Appium]   address: 172.27.19.132
+2021-01-06 07:25:10:873 [Appium]   logFile: appium_4723.log
+2021-01-06 07:25:10:873 [Appium]   wdaLocalPort: 8003
+2021-01-06 07:25:10:930 [Appium] Appium REST http interface listener started on 172.27.19.132:4723
+2021-01-06 07:25:24:925 [HTTP] Request idempotency key: f4f790ce-e9d3-4d03-9bc8-07d6f453690c
+2021-01-06 07:25:25:060 [HTTP] --> POST /wd/hub/session
+2021-01-06 07:25:25:060 [HTTP] {"desiredCapabilities":{"app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"bundleId":"com.sas.MobileBI","language":"zh_cn","deviceName":"iPhoneMax","fullReset":true,"launchTimeout":240000,"wdaLocalPort":8003,"newCommandTimeout":300,"platformVersion":"14.3","automationName":"XCUITest","platformName":"ios"},"capabilities":{"firstMatch":[{"appium:app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"appium:automationName":"XCUITest","appium:bundleId":"com.sas.MobileBI","appium:deviceName":"iPhoneMax","appium:fullReset":true,"appium:language":"zh_cn","appium:launchTimeout":240000,"appium:newCommandTimeout":300,"platformName":"ios","appium:platformVersion":"14.3","appium:wdaLocalPort":8003}]}}
+2021-01-06 07:25:25:061 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"bundleId":"com.sas.MobileBI","language":"zh_cn","deviceName":"iPhoneMax","fullReset":true,"launchTimeout":240000,"wdaLocalPort":8003,"newCommandTimeout":300,"platformVersion":"14.3","automationName":"XCUITest","platformName":"ios"},null,{"firstMatch":[{"appium:app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"appium:automationName":"XCUITest","appium:bundleId":"com.sas.MobileBI","appium:deviceName":"iPhoneMax","appium:fullReset":true,"appium:language":"zh_cn","appium:launchTimeout":240000,"appium:newCommandTimeout":300,"platformName":"ios","appium:platformVersion":"14.3","appium:wdaLocalPort":8003}]}]
+2021-01-06 07:25:25:062 [BaseDriver] Event 'newSessionRequested' logged at 1609917925062 (15:25:25 GMT+0800 (GMT+08:00))
+2021-01-06 07:25:35:537 [Appium] Appium v1.20.0 creating new XCUITestDriver (v3.33.1) session
+2021-01-06 07:25:35:539 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-01-06 07:25:35:539 [BaseDriver] Creating session with W3C capabilities: {
+2021-01-06 07:25:35:539 [BaseDriver]   "alwaysMatch": {
+2021-01-06 07:25:35:540 [BaseDriver]     "platformName": "ios",
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:app": "http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip",
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:simulatorStartupTimeout": 360000,
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:automationName": "XCUITest",
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:bundleId": "com.sas.MobileBI",
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:deviceName": "iPhoneMax",
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:fullReset": true,
+2021-01-06 07:25:35:541 [BaseDriver]     "appium:language": "zh_cn",
+2021-01-06 07:25:35:541 [BaseDriver]     "appium:launchTimeout": 240000,
+2021-01-06 07:25:35:541 [BaseDriver]     "appium:newCommandTimeout": 300,
+2021-01-06 07:25:35:541 [BaseDriver]     "appium:platformVersion": "14.3",
+2021-01-06 07:25:35:541 [BaseDriver]     "appium:wdaLocalPort": 8003
+2021-01-06 07:25:35:541 [BaseDriver]   },
+2021-01-06 07:25:35:541 [BaseDriver]   "firstMatch": [
+2021-01-06 07:25:35:542 [BaseDriver]     {}
+2021-01-06 07:25:35:542 [BaseDriver]   ]
+2021-01-06 07:25:35:542 [BaseDriver] }
+2021-01-06 07:25:35:552 [BaseDriver] Session created with session id: dbd5b62c-d58b-42e2-9380-e0ff3fa38367
+2021-01-06 07:25:35:582 [XCUITest] Current user: 'mark'
+2021-01-06 07:25:35:699 [XCUITest] iOS SDK Version set to '14.3'
+2021-01-06 07:25:35:830 [iOSSim] Constructing iOS simulator for Xcode version 12.3 with udid '6C36049E-A5DB-464F-920A-774851AF191B'
+2021-01-06 07:25:35:831 [XCUITest] Determining device to run tests on: udid: '6C36049E-A5DB-464F-920A-774851AF191B', real device: false
+2021-01-06 07:25:35:833 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1609917935833 (15:25:35 GMT+0800 (GMT+08:00))
+2021-01-06 07:25:35:836 [BaseDriver] Using downloadable app 'http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip'
+2021-01-06 07:25:36:387 [BaseDriver] Last-Modified: Wed, 06 Jan 2021 07:24:36 GMT
+2021-01-06 07:25:36:387 [BaseDriver] Cache-Control: undefined
+2021-01-06 07:25:36:388 [BaseDriver] A fresh copy of the application is going to be downloaded from http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip
+2021-01-06 07:25:36:388 [BaseDriver] Content-Type: application/zip
+2021-01-06 07:25:58:803 [Support] http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip (53.84 MB) has been downloaded to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/VisualAnalytics.app.zip' in 22.411s
+2021-01-06 07:25:58:804 [Support] Approximate download speed: 2.40 MB/s
+2021-01-06 07:25:58:955 [BaseDriver] Unzipping '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/VisualAnalytics.app.zip'
+2021-01-06 07:26:07:399 [BaseDriver] Extracted 3145 items from '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/VisualAnalytics.app.zip' in 8237ms
+2021-01-06 07:26:07:409 [BaseDriver] Matched 1 item in the extracted archive. Assuming 'VisualAnalytics.app' is the correct bundle
+2021-01-06 07:26:07:417 [BaseDriver] Unzipped local app to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-14pp3qk.736n/VisualAnalytics.app'
+2021-01-06 07:26:07:418 [BaseDriver] Event 'appConfigured' logged at 1609917967418 (15:26:07 GMT+0800 (GMT+08:00))
+2021-01-06 07:26:07:418 [XCUITest] Checking whether app '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-14pp3qk.736n/VisualAnalytics.app' is actually present on file system
+2021-01-06 07:26:07:419 [XCUITest] App is present
+2021-01-06 07:26:07:419 [BaseDriver] Event 'resetStarted' logged at 1609917967419 (15:26:07 GMT+0800 (GMT+08:00))
+2021-01-06 07:26:07:419 [XCUITest] Reset: fullReset is on. Cleaning simulator
+2021-01-06 07:26:07:420 [WebDriverAgent] Killing running processes 'xcodebuild.*6C36049E-A5DB-464F-920A-774851AF191B, 6C36049E-A5DB-464F-920A-774851AF191B.*XCTRunner, xctest.*6C36049E-A5DB-464F-920A-774851AF191B' for the device 6C36049E-A5DB-464F-920A-774851AF191B...
+2021-01-06 07:26:07:570 [WebDriverAgent] 'pgrep -if 6C36049E-A5DB-464F-920A-774851AF191B.*XCTRunner' didn't detect any matching processes. Return code: 1
+2021-01-06 07:26:07:572 [WebDriverAgent] 'pgrep -if xcodebuild.*6C36049E-A5DB-464F-920A-774851AF191B' didn't detect any matching processes. Return code: 1
+2021-01-06 07:26:07:572 [WebDriverAgent] 'pgrep -if xctest.*6C36049E-A5DB-464F-920A-774851AF191B' didn't detect any matching processes. Return code: 1
+2021-01-06 07:26:14:072 [iOSSim] Cleaning simulator 6C36049E-A5DB-464F-920A-774851AF191B
+2021-01-06 07:26:14:654 [BaseDriver] Event 'resetComplete' logged at 1609917974653 (15:26:14 GMT+0800 (GMT+08:00))
+2021-01-06 07:26:14:655 [WebDriverAgent] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+2021-01-06 07:26:14:655 [WebDriverAgent] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2021-01-06 07:26:14:798 [XCUITest] Continuing without capturing device logs: iOS Simulator with udid '6C36049E-A5DB-464F-920A-774851AF191B' is not running
+2021-01-06 07:26:14:798 [XCUITest] Setting up simulator
+2021-01-06 07:26:14:923 [iOSSim] Checking whether simulator has been run before: no
+2021-01-06 07:26:14:923 [iOS] No simulator directories found.
+2021-01-06 07:26:14:924 [iOSSim] Attempting to launch and quit the simulator, to create directory structure
+2021-01-06 07:26:14:924 [iOSSim] Will launch with Safari? false
+2021-01-06 07:26:14:926 [iOSSim] ['on', 'off' or 'system'] are available as the pasteboard automatic sync option. Defaulting to 'off'
+2021-01-06 07:26:14:926 [iOSSim] Setting preferences of 6C36049E-A5DB-464F-920A-774851AF191B Simulator to {"ConnectHardwareKeyboard":false}
+2021-01-06 07:26:14:926 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2021-01-06 07:26:21:504 [iOSSim] Updated 6C36049E-A5DB-464F-920A-774851AF191B Simulator preferences at '/Users/mark/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"6C36049E-A5DB-464F-920A-774851AF191B":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"E2D0E264-D9CF-4D45-B825-1AB343DD6A43":{"WindowCenter":"{639.5, 369.5}","WindowScale":0.6047227926078029}},"SimulatorWindowRotationAngle":0}}}
+2021-01-06 07:26:21:650 [iOSSim] Got Simulator UI client PID: 5214
+2021-01-06 07:26:21:772 [iOSSim] Booting Simulator with UDID '6C36049E-A5DB-464F-920A-774851AF191B'...
+2021-01-06 07:27:39:408 [WebDriverAgent] Parsed BUILD_DIR configuration value: '/Users/mark/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+2021-01-06 07:27:39:409 [WebDriverAgent] Got derived data root: '/Users/mark/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+2021-01-06 07:28:25:936 [XCUITest] {}
+2021-01-06 07:28:26:184 [DevCon Factory] Releasing connections for 6C36049E-A5DB-464F-920A-774851AF191B device on any port number
+2021-01-06 07:28:26:184 [DevCon Factory] No cached connections have been found
+2021-01-06 07:28:26:185 [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2021-01-06 07:28:26:198 [BaseDriver] Event 'newSessionStarted' logged at 1609918106194 (15:28:26 GMT+0800 (GMT+08:00))
+2021-01-06 07:28:26:908 [W3C] Encountered internal error running command: Error: The simulator 6C36049E-A5DB-464F-920A-774851AF191B has failed to finish booting after 120s. Original status: Monitoring boot status for iPhoneMax (6C36049E-A5DB-464F-920A-774851AF191B).
+2021-01-06 07:28:26:908 [W3C] [2021-01-06 07:26:30 +0000] Status=1, isTerminal=NO, Elapsed=00:06.
+2021-01-06 07:28:27:026 [W3C] 	Waiting on BackBoard
+2021-01-06 07:28:27:294 [W3C] 
+2021-01-06 07:28:27:294 [W3C] [2021-01-06 07:28:13 +0000] Status=2, isTerminal=NO, Elapsed=01:49.
+2021-01-06 07:28:27:294 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:295 [W3C] 		Reason:Running plugin com.apple.calendar.migrator (Calendar.migrator)
+2021-01-06 07:28:27:295 [W3C] 		Migration Elapsed:00:00 seconds
+2021-01-06 07:28:27:295 [W3C] 
+2021-01-06 07:28:27:295 [W3C] [2021-01-06 07:28:13 +0000] Status=2, isTerminal=NO, Elapsed=01:49.
+2021-01-06 07:28:27:295 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:295 [W3C] 		Reason:Running plugin com.apple.calendar.migrator (Calendar.migrator)
+2021-01-06 07:28:27:296 [W3C] 		Migration Elapsed:00:00 seconds
+2021-01-06 07:28:27:296 [W3C] 
+2021-01-06 07:28:27:296 [W3C] [2021-01-06 07:28:13 +0000] Status=2, isTerminal=NO, Elapsed=01:49.
+2021-01-06 07:28:27:296 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:296 [W3C] 		Reason:Running plugin com.apple.MobileSafari.migrator (MobileSafari.migrator)
+2021-01-06 07:28:27:296 [W3C] 		Migration Elapsed:00:00 seconds
+2021-01-06 07:28:27:296 [W3C] 
+2021-01-06 07:28:27:297 [W3C] [2021-01-06 07:28:14 +0000] Status=2, isTerminal=NO, Elapsed=01:50.
+2021-01-06 07:28:27:297 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:297 [W3C] 		Reason:Running plugin com.apple.managedconfiguration.mdm.migrator (MCMDM.migrator)
+2021-01-06 07:28:27:297 [W3C] 		Migration Elapsed:00:01 seconds
+2021-01-06 07:28:27:297 [W3C] 
+2021-01-06 07:28:27:297 [W3C] [2021-01-06 07:28:15 +0000] Status=2, isTerminal=NO, Elapsed=01:51.
+2021-01-06 07:28:27:297 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:298 [W3C] 		Reason:Running plugin com.apple.languageasset.migrator (LanguageAssetMigrator.migrator)
+2021-01-06 07:28:27:298 [W3C] 		Migration Elapsed:00:02 seconds
+2021-01-06 07:28:27:298 [W3C] 
+2021-01-06 07:28:27:298 [W3C] [2021-01-06 07:28:16 +0000] Status=2, isTerminal=NO, Elapsed=01:52.
+2021-01-06 07:28:27:298 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:298 [W3C] 		Reason:Running plugin com.apple.PassbookDataMigrator (PassbookDataMigrator.migrator)
+2021-01-06 07:28:27:298 [W3C] 		Migration Elapsed:00:03 seconds
+2021-01-06 07:28:27:298 [W3C] 
+2021-01-06 07:28:27:299 [W3C] [2021-01-06 07:28:17 +0000] Status=2, isTerminal=NO, Elapsed=01:53.
+2021-01-06 07:28:27:299 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:299 [W3C] 		Reason:Running plugin com.apple.PassbookDataMigrator (PassbookDataMigrator.migrator)
+2021-01-06 07:28:27:299 [W3C] 		Migration Elapsed:00:04 seconds
+2021-01-06 07:28:27:299 [W3C] 
+2021-01-06 07:28:27:299 [W3C] [2021-01-06 07:28:18 +0000] Status=2, isTerminal=NO, Elapsed=01:54.
+2021-01-06 07:28:27:299 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:299 [W3C] 		Reason:Running plugin com.apple.PassbookDataMigrator (PassbookDataMigrator.migrator)
+2021-01-06 07:28:27:300 [W3C] 		Migration Elapsed:00:05 seconds
+2021-01-06 07:28:27:300 [W3C] 
+2021-01-06 07:28:27:300 [W3C] [2021-01-06 07:28:19 +0000] Status=2, isTerminal=NO, Elapsed=01:55.
+2021-01-06 07:28:27:300 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:300 [W3C] 		Reason:Running plugin com.apple.PassbookDataMigrator (PassbookDataMigrator.migrator)
+2021-01-06 07:28:27:300 [W3C] 		Migration Elapsed:00:06 seconds
+2021-01-06 07:28:27:300 [W3C] 
+2021-01-06 07:28:27:300 [W3C] [2021-01-06 07:28:20 +0000] Status=2, isTerminal=NO, Elapsed=01:56.
+2021-01-06 07:28:27:300 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:301 [W3C] 		Reason:Running plugin com.apple.PassbookDataMigrator (PassbookDataMigrator.migrator)
+2021-01-06 07:28:27:301 [W3C] 		Migration Elapsed:00:07 seconds
+2021-01-06 07:28:27:301 [W3C] 
+2021-01-06 07:28:27:301 [W3C] [2021-01-06 07:28:21 +0000] Status=2, isTerminal=NO, Elapsed=01:57.
+2021-01-06 07:28:27:301 [W3C] 	Waiting on Data Migration
+2021-01-06 07:28:27:301 [W3C] 		Reason:Running plugin com.apple.PreferencesMigrator (PreferencesMigrator.migrator)
+2021-01-06 07:28:27:301 [W3C] 		Migration Elapsed:00:08 seconds
+2021-01-06 07:28:27:301 [W3C] 
+2021-01-06 07:28:27:302 [W3C] [2021-01-06 07:28:23 +0000] Status=1, isTerminal=NO, Elapsed=01:59.
+2021-01-06 07:28:27:302 [W3C] 	Waiting on BackBoard
+2021-01-06 07:28:27:302 [W3C] 
+2021-01-06 07:28:27:302 [W3C] 
+2021-01-06 07:28:27:302 [W3C]     at Simctl.startBootMonitor (/usr/local/lib/node_modules/appium/node_modules/node-simctl/lib/subcommands/bootstatus.js:98:13)
+2021-01-06 07:28:27:302 [W3C]     at SimulatorXcode11_4.waitForBoot (/usr/local/lib/node_modules/appium/node_modules/appium-ios-simulator/lib/simulator-xcode-8.js:132:5)
+2021-01-06 07:28:27:302 [W3C]     at SimulatorXcode11_4.run (/usr/local/lib/node_modules/appium/node_modules/appium-ios-simulator/lib/simulator-xcode-9.js:160:7)
+2021-01-06 07:28:27:302 [W3C]     at SimulatorXcode11_4.launchAndQuit (/usr/local/lib/node_modules/appium/node_modules/appium-ios-simulator/lib/simulator-xcode-6.js:643:5)
+2021-01-06 07:28:27:302 [W3C]     at launchAndQuitSimulator (/usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/lib/settings.js:17:10)
+2021-01-06 07:28:27:303 [W3C]     at setLocale (/usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/lib/settings.js:54:5)
+2021-01-06 07:28:27:303 [W3C]     at Object.setLocaleAndPreferences (/usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/lib/settings.js:30:23)
+2021-01-06 07:28:27:303 [W3C]     at XCUITestDriver.start (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:385:26)
+2021-01-06 07:28:27:303 [W3C]     at XCUITestDriver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:215:7)
+2021-01-06 07:28:27:303 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:371:35)
+2021-01-06 07:28:27:926 [HTTP] <-- POST /wd/hub/session 500 182505 ms - 6169
+2021-01-06 07:28:28:071 [HTTP] 
