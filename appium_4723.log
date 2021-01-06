@@ -17,7 +17,7 @@
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:app": "http://xxxxx.app.zip",
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:simulatorStartupTimeout": 360000,
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:automationName": "XCUITest",
-2021-01-06 07:25:35:540 [BaseDriver]     "appium:bundleId": "com.sas.MobileBI",
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:bundleId": "com.xxx.MobileBI",
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:deviceName": "iPhoneMax",
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:fullReset": true,
 2021-01-06 07:25:35:541 [BaseDriver]     "appium:language": "zh_cn",
@@ -44,7 +44,7 @@
 2021-01-06 07:25:58:803 [Support] http://xxxxx.app.zip (53.84 MB) has been downloaded to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/xxxxx.app.zip' in 22.411s
 2021-01-06 07:25:58:804 [Support] Approximate download speed: 2.40 MB/s
 2021-01-06 07:25:58:955 [BaseDriver] Unzipping '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/xxxxxx.app.zip'
-2021-01-06 07:26:07:399 [BaseDriver] Extracted 3145 items from '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/VisualAnalytics.app.zip' in 8237ms
+2021-01-06 07:26:07:399 [BaseDriver] Extracted 3145 items from '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/xxxxx.app.zip' in 8237ms
 2021-01-06 07:26:07:409 [BaseDriver] Matched 1 item in the extracted archive. Assuming 'xxxxx.app' is the correct bundle
 2021-01-06 07:26:07:417 [BaseDriver] Unzipped local app to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-14pp3qk.736n/xxxxx.app'
 2021-01-06 07:26:07:418 [BaseDriver] Event 'appConfigured' logged at 1609917967418 (15:26:07 GMT+0800 (GMT+08:00))
