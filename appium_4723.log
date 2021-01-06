@@ -6,15 +6,15 @@
 2021-01-06 07:25:10:930 [Appium] Appium REST http interface listener started on 172.27.19.132:4723
 2021-01-06 07:25:24:925 [HTTP] Request idempotency key: f4f790ce-e9d3-4d03-9bc8-07d6f453690c
 2021-01-06 07:25:25:060 [HTTP] --> POST /wd/hub/session
-2021-01-06 07:25:25:060 [HTTP] {"desiredCapabilities":{"app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"bundleId":"com.sas.MobileBI","language":"zh_cn","deviceName":"iPhoneMax","fullReset":true,"launchTimeout":240000,"wdaLocalPort":8003,"newCommandTimeout":300,"platformVersion":"14.3","automationName":"XCUITest","platformName":"ios"},"capabilities":{"firstMatch":[{"appium:app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"appium:automationName":"XCUITest","appium:bundleId":"com.sas.MobileBI","appium:deviceName":"iPhoneMax","appium:fullReset":true,"appium:language":"zh_cn","appium:launchTimeout":240000,"appium:newCommandTimeout":300,"platformName":"ios","appium:platformVersion":"14.3","appium:wdaLocalPort":8003}]}}
-2021-01-06 07:25:25:061 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"bundleId":"com.sas.MobileBI","language":"zh_cn","deviceName":"iPhoneMax","fullReset":true,"launchTimeout":240000,"wdaLocalPort":8003,"newCommandTimeout":300,"platformVersion":"14.3","automationName":"XCUITest","platformName":"ios"},null,{"firstMatch":[{"appium:app":"http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip","appium:simulatorStartupTimeout":360000,"appium:automationName":"XCUITest","appium:bundleId":"com.sas.MobileBI","appium:deviceName":"iPhoneMax","appium:fullReset":true,"appium:language":"zh_cn","appium:launchTimeout":240000,"appium:newCommandTimeout":300,"platformName":"ios","appium:platformVersion":"14.3","appium:wdaLocalPort":8003}]}]
+2021-01-06 07:25:25:060 [HTTP] {"desiredCapabilities":{"app":"http://xxxxx.app.zip","appium:simulatorStartupTimeout":360000,"bundleId":"com.xxx.MobileBI","language":"zh_cn","deviceName":"iPhoneMax","fullReset":true,"launchTimeout":240000,"wdaLocalPort":8003,"newCommandTimeout":300,"platformVersion":"14.3","automationName":"XCUITest","platformName":"ios"},"capabilities":{"firstMatch":[{"appium:app":"http://xxxxx.app.zip","appium:simulatorStartupTimeout":360000,"appium:automationName":"XCUITest","appium:bundleId":"com.xxx.MobileBI","appium:deviceName":"iPhoneMax","appium:fullReset":true,"appium:language":"zh_cn","appium:launchTimeout":240000,"appium:newCommandTimeout":300,"platformName":"ios","appium:platformVersion":"14.3","appium:wdaLocalPort":8003}]}}
+2021-01-06 07:25:25:061 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"http://xxxxx.app.zip","appium:simulatorStartupTimeout":360000,"bundleId":"com.xxx.MobileBI","language":"zh_cn","deviceName":"iPhoneMax","fullReset":true,"launchTimeout":240000,"wdaLocalPort":8003,"newCommandTimeout":300,"platformVersion":"14.3","automationName":"XCUITest","platformName":"ios"},null,{"firstMatch":[{"appium:app":"http://xxxxx.app.zip","appium:simulatorStartupTimeout":360000,"appium:automationName":"XCUITest","appium:bundleId":"com.xxx.MobileBI","appium:deviceName":"iPhoneMax","appium:fullReset":true,"appium:language":"zh_cn","appium:launchTimeout":240000,"appium:newCommandTimeout":300,"platformName":"ios","appium:platformVersion":"14.3","appium:wdaLocalPort":8003}]}]
 2021-01-06 07:25:25:062 [BaseDriver] Event 'newSessionRequested' logged at 1609917925062 (15:25:25 GMT+0800 (GMT+08:00))
 2021-01-06 07:25:35:537 [Appium] Appium v1.20.0 creating new XCUITestDriver (v3.33.1) session
 2021-01-06 07:25:35:539 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
 2021-01-06 07:25:35:539 [BaseDriver] Creating session with W3C capabilities: {
 2021-01-06 07:25:35:539 [BaseDriver]   "alwaysMatch": {
 2021-01-06 07:25:35:540 [BaseDriver]     "platformName": "ios",
-2021-01-06 07:25:35:540 [BaseDriver]     "appium:app": "http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip",
+2021-01-06 07:25:35:540 [BaseDriver]     "appium:app": "http://xxxxx.app.zip",
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:simulatorStartupTimeout": 360000,
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:automationName": "XCUITest",
 2021-01-06 07:25:35:540 [BaseDriver]     "appium:bundleId": "com.sas.MobileBI",
@@ -36,19 +36,19 @@
 2021-01-06 07:25:35:830 [iOSSim] Constructing iOS simulator for Xcode version 12.3 with udid '6C36049E-A5DB-464F-920A-774851AF191B'
 2021-01-06 07:25:35:831 [XCUITest] Determining device to run tests on: udid: '6C36049E-A5DB-464F-920A-774851AF191B', real device: false
 2021-01-06 07:25:35:833 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1609917935833 (15:25:35 GMT+0800 (GMT+08:00))
-2021-01-06 07:25:35:836 [BaseDriver] Using downloadable app 'http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip'
+2021-01-06 07:25:35:836 [BaseDriver] Using downloadable app 'http://xxxxx.app.zip'
 2021-01-06 07:25:36:387 [BaseDriver] Last-Modified: Wed, 06 Jan 2021 07:24:36 GMT
 2021-01-06 07:25:36:387 [BaseDriver] Cache-Control: undefined
-2021-01-06 07:25:36:388 [BaseDriver] A fresh copy of the application is going to be downloaded from http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip
+2021-01-06 07:25:36:388 [BaseDriver] A fresh copy of the application is going to be downloaded from http://xxxxx.app.zip
 2021-01-06 07:25:36:388 [BaseDriver] Content-Type: application/zip
-2021-01-06 07:25:58:803 [Support] http://birdtest.bct-brd.sashq-d.openstack.sas.com:8080/job/MBI_Get_Unicorn_Sim_App/ws/VisualAnalytics.app.zip (53.84 MB) has been downloaded to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/VisualAnalytics.app.zip' in 22.411s
+2021-01-06 07:25:58:803 [Support] http://xxxxx.app.zip (53.84 MB) has been downloaded to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/xxxxx.app.zip' in 22.411s
 2021-01-06 07:25:58:804 [Support] Approximate download speed: 2.40 MB/s
-2021-01-06 07:25:58:955 [BaseDriver] Unzipping '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/VisualAnalytics.app.zip'
+2021-01-06 07:25:58:955 [BaseDriver] Unzipping '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/xxxxxx.app.zip'
 2021-01-06 07:26:07:399 [BaseDriver] Extracted 3145 items from '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-27n6in.g08jwi/VisualAnalytics.app.zip' in 8237ms
-2021-01-06 07:26:07:409 [BaseDriver] Matched 1 item in the extracted archive. Assuming 'VisualAnalytics.app' is the correct bundle
-2021-01-06 07:26:07:417 [BaseDriver] Unzipped local app to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-14pp3qk.736n/VisualAnalytics.app'
+2021-01-06 07:26:07:409 [BaseDriver] Matched 1 item in the extracted archive. Assuming 'xxxxx.app' is the correct bundle
+2021-01-06 07:26:07:417 [BaseDriver] Unzipped local app to '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-14pp3qk.736n/xxxxx.app'
 2021-01-06 07:26:07:418 [BaseDriver] Event 'appConfigured' logged at 1609917967418 (15:26:07 GMT+0800 (GMT+08:00))
-2021-01-06 07:26:07:418 [XCUITest] Checking whether app '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-14pp3qk.736n/VisualAnalytics.app' is actually present on file system
+2021-01-06 07:26:07:418 [XCUITest] Checking whether app '/var/folders/46/h72g90dd6615d2pg8lgn99c40000gp/T/202106-9896-14pp3qk.736n/xxxxx.app' is actually present on file system
 2021-01-06 07:26:07:419 [XCUITest] App is present
 2021-01-06 07:26:07:419 [BaseDriver] Event 'resetStarted' logged at 1609917967419 (15:26:07 GMT+0800 (GMT+08:00))
 2021-01-06 07:26:07:419 [XCUITest] Reset: fullReset is on. Cleaning simulator
